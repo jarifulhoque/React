@@ -1,9 +1,13 @@
 import './App.css';
-import MyComponent from './components/MyComponent';
+import Header from './components/header.jsx'
+import Main from './components/main.jsx'
 
-const App = () => {
+function App() {
   return (
-    <MyComponent />
+    <div className="App">
+      <Header />
+      <Main />
+    </div>
   );
 }
 
