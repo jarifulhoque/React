@@ -1,8 +1,8 @@
-import Login from "./components/Login";
+import Car from "./components/car.jsx";
 
 function App() {
   return (
-    <Login />
+    <Car />
   );
 }
 
